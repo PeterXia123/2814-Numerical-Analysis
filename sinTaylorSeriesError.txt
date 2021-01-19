@@ -1,0 +1,10 @@
+
+the compute forward error is not within the theoritical error
+because 1/fact(23)=3.8682*e^-23
+the value is less than 2.220446e^-16
+don't satisfy our assumption
+
+why it is not smoothy 
+because the estimation only count the first 10 terms.
+ so the difference |sin(x)-t10| are not exact 0 and since there is machine epision so the value round up and down accounding to floating-point function
+that why we see it fluactuation instead of move steadily.
